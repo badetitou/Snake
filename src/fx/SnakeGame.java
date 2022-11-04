@@ -1,13 +1,16 @@
 package fx;
 
+import java.util.ArrayList;
+
 import controller.Controller;
 import controller.Direction;
 import javafx.application.Application;
-import javafx.scene.Node;
 import javafx.scene.paint.Color;
-import snake.*;
-
-import java.util.ArrayList;
+import snake.LocalSnakeHead;
+import snake.SnakeBody;
+import snake.SnakeElement;
+import snake.SnakeHead;
+import snake.SnakeQueue;
 
 /**
  *
